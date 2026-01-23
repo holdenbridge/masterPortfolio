@@ -19,6 +19,7 @@
 
 .greeting-main {
   display: flex;
+  align-items: flex-start;
 }
 
 .greeting-main > * {
@@ -31,7 +32,7 @@
 }
 
 .greeting-text {
-  margin-top: 80px;
+  margin-top: 0px;
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
