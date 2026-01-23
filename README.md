@@ -40,7 +40,8 @@
 ✔️ Certifications 🏆\
 ✔️ Blogs\
 ✔️ Education\
-✔️ Contact me
+✔️ Contact me\
+✔️ Resume Viewer
 
 To view a live example, **[click here](https://ashutosh1919.github.io/)**
 
@@ -189,6 +190,19 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 - That's it. You just need to change the theme name and the code will take care of everything else
 - Run `npm start` to check if everything is ok.
 
+# Resume 📃
+
+- If you want to display your resume, go to the <a href="/src/assets/docs/">/src/assets/docs/</a> directory.
+- Paste your resume there and copy your resume's file name.
+- Also, keep in mind that your resume must be in A4 size.
+- Now, go to <a href="/src/pages/resume/Resume.js">/src/pages/resume/Resume.js</a>.
+- In the import section, find:
+```
+import myResumePdf from "../../assets/docs/Ashutosh_Hathidara_Resume_ML.pdf"
+```
+- and replace **"Ashutosh_Hathidara_Resume_ML.pdf"** with your resume file name.
+- Launch the project and go to the route `/resume` to view your resume.
+
 # Deployment 📦
 
 - Once you are done with your setup and have successfully completed all steps above, you need to put your website online!
@@ -289,7 +303,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Adamou02"><img src="https://avatars.githubusercontent.com/u/42783707?v=4?s=100" width="100px;" alt="Adam Bouhrara"/><br /><sub><b>Adam Bouhrara</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=Adamou02" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/16ratneshkumar"><img src="https://avatars.githubusercontent.com/u/142919875?v=4?s=100" width="100px;" alt="Ratnesh Kumar"/><br /><sub><b>Ratnesh Kumar</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=16ratneshkumar" title="Code">💻</a> <a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=16ratneshkumar" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Towbee05"><img src="https://avatars.githubusercontent.com/u/114928370?v=4?s=100" width="100px;" alt="Tobi"/><br /><sub><b>Tobi</b></sub></a><br /><a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=Towbee05" title="Documentation">📖</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://sakshamjoshi.vercel.app/"><img src="https://avatars.githubusercontent.com/u/109752898?v=4?s=100" width="100px;" alt="SAKSHAM JOSHI"/><br /><sub><b>SAKSHAM JOSHI</b></sub></a><br /><a href="#design-saksham-joshi" title="Design">🎨</a> <a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=saksham-joshi" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://sakshamjoshi.vercel.app/"><img src="https://avatars.githubusercontent.com/u/109752898?v=4?s=100" width="100px;" alt="SAKSHAM JOSHI"/><br /><sub><b>SAKSHAM JOSHI</b></sub></a><br /><a href="#design-saksham-joshi" title="Design">🎨</a> <a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=saksham-joshi" title="Code">💻</a> <a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=saksham-joshi" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
