@@ -15,7 +15,12 @@ class DegreeCard extends Component {
                 style={{
                   maxWidth: "100%",
                   maxHeight: "100%",
-                  transform: "scale(0.9)",
+                  transform:
+                    degree.logo_path === "swat_logo.png"
+                      ? "scale(1.2)"
+                      : degree.logo_path === "uva_logo.png"
+                      ? "scale(1.1)"
+                      : "scale(0.9)",
                 }}
                 src={require(`../../assets/images/${degree.logo_path}`)}
                 alt={degree.alt_name}
@@ -47,11 +52,14 @@ class DegreeCard extends Component {
               </div>
             </div>
             <div className="body-content">
-              {degree.descriptions.map((sentence) => {
+              {degree.descriptions.map((sentence, index) => {
                 return (
-                  <p className="content-list" style={{ color: theme.text }}>
-                    {sentence}
-                  </p>
+                  <p
+                    key={index}
+                    className="content-list"
+                    style={{ color: theme.text }}
+                    dangerouslySetInnerHTML={{ __html: sentence }}
+                  />
                 );
               })}
               {degree.website_link && (
