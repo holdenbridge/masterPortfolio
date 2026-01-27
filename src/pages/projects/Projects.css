@@ -27,12 +27,13 @@
 }
 
 .projects-heading-img-div > * {
-  max-width: 100%;
+  max-width: 60%;
+  max-height: 300px;
   height: auto;
 }
 
 .projects-heading-text {
-  font-size: 56px;
+  font-size: 50px;
   font-weight: 400;
   font-family: "Google Sans Medium";
   line-height: 1.1;
@@ -41,7 +42,7 @@
 }
 
 .projects-heading-sub-text {
-  font-size: 30px;
+  font-size: 26px;
   font-family: "Google Sans Regular";
   text-align: center;
   margin-bottom: 10px;
