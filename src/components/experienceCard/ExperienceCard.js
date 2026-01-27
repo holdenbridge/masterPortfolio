@@ -17,6 +17,9 @@ class ExperienceCard extends Component {
           <div className="experience-card-logo-div">
             <img
               className="experience-card-logo"
+              style={{
+                objectFit: "contain",
+              }}
               src={require(`../../assets/images/${experience["logo_path"]}`)}
               alt=""
             />
