@@ -333,30 +333,28 @@ const certifications = {
   certifications: [
     {
       title: "Master Python for Data Science",
-      subtitle: "- LinkedIn Learning",
+      subtitle: "LinkedIn Learning",
       logo_path: "linkedin_learning_logo.jpeg",
       certificate_link:
         "https://www.linkedin.com/learning/certificates/184460bb1eb28b1291db5b2faca5277b1416bad96a9ae79adb443d1bbb1789c7?trk=backfilled_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BIizxMB5vTwWnbnctXs7nYw%3D%3D",
-      alt_name: "Stanford University",
+      alt_name: "Python for Data Science",
       color_code: "#63aaff99",
     },
     {
-      title: "TODO - coursera?",
-      subtitle: "- TODO",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
+      title: "Coming Soon",
+      subtitle: "-",
+      logo_path: "coming_soon.png",
+      certificate_link: "",
+      alt_name: "Soon",
       color_code: "#00000099",
     },
     {
-      title: "TODO",
-      subtitle: "- TODO",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+      title: "Coming Soon",
+      subtitle: "-",
+      logo_path: "coming_soon.png",
+      certificate_link: "",
+      alt_name: "Soon",
+      color_code: "#00000099",
     },
   ],
 };
