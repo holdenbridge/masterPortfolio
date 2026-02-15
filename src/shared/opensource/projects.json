@@ -2,7 +2,7 @@
   "data": [
     {
       "id": "project_id_1",
-      "name": "TODO",
+      "name": "TODO - Golf Betting Trending Performance",
       "createdAt": "1999-99-99T",
       "url": "https://github.com/holdenbridge",
       "description": "TODO- Add Description",
@@ -20,7 +20,7 @@
     },
     {
       "id": "project_id_2",
-      "name": "TODO",
+      "name": "TODO - MLB Simulation Animation",
       "createdAt": "1999-99-99T",
       "url": "https://github.com/holdenbridge",
       "description": "TODO- Add Description",
@@ -38,7 +38,7 @@
     },
     {
       "id": "project_id_3",
-      "name": "TODO",
+      "name": "TODO- FF Draft Tool",
       "createdAt": "1999-99-99T",
       "url": "https://github.com/holdenbridge",
       "description": "TODO- Add Description",
@@ -56,7 +56,7 @@
     },
     {
       "id": "project_id_4",
-      "name": "TODO",
+      "name": "TODO - Golf AI Coach / Poker",
       "createdAt": "1999-99-99T",
       "url": "https://github.com/holdenbridge",
       "description": "TODO- Add Description",
@@ -74,10 +74,10 @@
     },
     {
       "id": "project_id_5",
-      "name": "TODO",
-      "createdAt": "1999-99-99T",
-      "url": "https://github.com/holdenbridge",
-      "description": "TODO- Add Description",
+      "name": "Centennial Conference Offensive Statistics",
+      "createdAt": "2020-08-18T",
+      "url": "https://github.com/holdenbridge/CCBaseballProject",
+      "description": "Simple introduction to baseball data for my alma mater",
       "isFork": false,
       "languages": [
         {
@@ -87,15 +87,19 @@
         {
           "name": "Jupyter Notebook",
           "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Medium",
+          "iconifyClass": "simple-icons:medium"
         }
       ]
     },
     {
       "id": "project_id_6",
-      "name": "TODO",
-      "createdAt": "1999-99-99T",
-      "url": "https://github.com/holdenbridge",
-      "description": "TODO- Add Description",
+      "name": "2020 MLB Standings Race",
+      "createdAt": "2020-09-28T",
+      "url": "https://github.com/holdenbridge/2020MLB-StandingsRace",
+      "description": "Created a MLB standings visual I found interesting",
       "isFork": false,
       "languages": [
         {

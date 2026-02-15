@@ -19,7 +19,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Holden Bridge",
+  title: "Hi, I'm Holden",
   logo_name: "Holden Bridge",
   subTitle:
     "I am a Data Scientist who focuses on analyzing sports data to optimize performance, strategy, and efficiency.",
@@ -103,13 +103,9 @@ const skills = {
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "Game Theory / Optimization / Stretegic Thinking ?? ",
       fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
+      skills: ["⚡ TODO"],
       softwareSkills: [
         {
           skillName: "HTML5",
@@ -185,14 +181,9 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "More About Me",
       fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
+      skills: ["⚡ TODO"],
       softwareSkills: [
         {
           skillName: "GCP",
@@ -248,45 +239,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:kubernetes",
           style: {
             color: "#326CE5",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
           },
         },
       ],
@@ -363,7 +315,7 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work & Internships",
-  description: "TODO - Overall Description ",
+  description: "",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -375,9 +327,10 @@ const experience = {
           company: "PrizePicks",
           company_url: "https://www.prizepicks.com/",
           logo_path: "prizepicks_logo.png",
-          duration: "March 2024 - Present",
+          duration: "",
           location: "Denver, CO (Remote)",
-          description: "TODO - add description",
+          description:
+            "I built and deployed a full MLB game simulation that has generated and priced over 70,000 player prop projections driving more than $150M in wagers, pioneered the company’s first fully automated live in-game projections by dynamically ingesting real-time game states and simulating individual innings, and contributed to projection development efforts across additional sports including golf and football.",
           color: "#000000",
         },
         {
@@ -385,9 +338,10 @@ const experience = {
           company: "Minnesota Twins",
           company_url: "https://www.mlb.com/twins",
           logo_path: "twins_logo.png",
-          duration: "June 2021 - March 2024",
+          duration: "",
           location: "Minneapolis, MN",
-          description: "TODO - add description",
+          description:
+            "I built and maintained predictive models, scouting reports, and data visualizations to support Major League coaching staff with pre-game preparation, in-game decision-making, and season-long performance evaluation, while managing accessible and reusable codebases for the advance scouting and front-office teams.",
           color: "#0879bf",
         },
       ],
@@ -400,9 +354,10 @@ const experience = {
           company: "Under Armour",
           company_url: "https://about.underarmour.com/en",
           logo_path: "underarmour_logo.png",
-          duration: "May 2019 - Aug 2019",
+          duration: "",
           location: "Baltimore, MD",
-          description: "TODO - add description",
+          description:
+            "I analyzed cross-departmental Super User program data, implemented educational resources and process improvements, and presented findings to senior leadership highlighting measurable cost and efficiency gains.",
           color: "#000000",
         },
         {
@@ -410,9 +365,10 @@ const experience = {
           company: "Nextech Systems",
           company_url: "https://www.nextech.com/",
           logo_path: "nextech_logo.png",
-          duration: "June 2018 - August 2018",
+          duration: "",
           location: "Tampa, FL",
-          description: "TODO - add description",
+          description:
+            "I conducted cross-functional interviews to gather competitive intelligence, built a centralized competitor database and strategic sales documents, and improved sales data collection processes using Salesforce to enable more robust future analysis.",
           color: "#ee3c26",
         },
         {
@@ -420,9 +376,10 @@ const experience = {
           company: "Vector Marketing",
           company_url: "https://www.vectormarketing.com/",
           logo_path: "vector_logo.png",
-          duration: "June 2016 - August 2016",
+          duration: "",
           location: "Tampa, FL",
-          description: "TODO - add description",
+          description:
+            "I researched and contacted prospective customers, scheduled and delivered sales presentations, and generated over $7,500 in revenue within three months through direct sales.",
           color: "#0071C5",
         },
       ],
@@ -433,7 +390,8 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description: "TODO- add Description",
+  description:
+    "A collection of personal projects I have worked on in my free time. Baseball, Golf, and Football are all represented.",
   avatar_image_path: "projects_image.svg",
 };
 
