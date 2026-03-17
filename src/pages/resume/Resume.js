@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import { Fade } from "react-reveal";
 import "./Resume.css";
@@ -81,7 +80,6 @@ export default class ResumePage extends Component {
 
     return (
       <div className="resume-main">
-        <Header theme={theme} />
         <div className="resume-view">
           <Fade bottom duration={2000} distance="40px">
             <div>
@@ -188,7 +186,7 @@ export default class ResumePage extends Component {
             </div>
           </Fade>
         </div>
-        <Footer theme={theme} onToggle={this.props.onToggle}/>
+        <Footer theme={theme} onToggle={this.props.onToggle} />
         <TopButton theme={theme} />
       </div>
     );
